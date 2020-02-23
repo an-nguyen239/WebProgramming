@@ -6,7 +6,7 @@ body {
 }
 
 .parallax {
-  background-image: url("img/car-2.jpg");
+  background-image: url("img/lets.jpg");
   min-height: 720px; 
   background-attachment: fixed;
   background-position: center;
@@ -25,8 +25,16 @@ body {
 .topnav {
   background-color: #3f3f3f;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
-
+.topnav div {
+    float: left;
+    font-size: 2em;
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
 .topnav a {
   float: right;
   color: #f2f2f2;
