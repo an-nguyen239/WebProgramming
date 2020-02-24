@@ -91,7 +91,9 @@ body {
   display: inline-block;
   width: 270px;
   height: 200px;
+
 }
+
 figcaption {
    display: block;
    width: auto;
@@ -121,6 +123,7 @@ figcaption {
   width: 420px;
   height: 250px;
   padding-bottom: 15px;
+
 }
 
 .offer1 {
@@ -160,17 +163,17 @@ figcaption {
   height: 200px;
   padding: 20px 15px;
   border-radius: 30px;
-  opacity: 0.87;
+  opacity: 0.9;
 }
 
 .footer {
   width: 100vw;
   display: block;
   overflow: hidden;
-  padding: 70px 0px;
+  padding: 25px 0px;
   box-sizing: border-box;
   background-color: #18181A; 
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .inner_footer{
@@ -181,12 +184,11 @@ figcaption {
 }
 
 .inner_footer .logo_container {
-  padding-top: -50px;
-  width: 35%;
+  width: 33.333%;
   float: left;
   display: block;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .inner_footer .logo_container h1{
@@ -195,7 +197,7 @@ figcaption {
 
 .inner_footer .footer_third {
   width: calc(21.666666667% - 20px);
-  margin-right: 10px;
+  margin-right: 20px;
   float: left;
   height: 100%;
 }
@@ -216,7 +218,7 @@ figcaption {
 
 .inner_footer .footer_third a {
   font-family: 'Arial';
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   display: block;
   font-weight: 200;
