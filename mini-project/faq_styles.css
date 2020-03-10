@@ -1,9 +1,8 @@
-.container{
-	background-image: url(img/forcustomer.png);
-    background-attachment: fixed;
-    min-height: 720px;
-    background-position: center;
-    background-size: cover;
+html,body{
+	background-image: url('img/forcustomer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 .content{
