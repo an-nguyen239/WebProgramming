@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,10 @@ session_start();
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/b014c0fe38.js" crossorigin="anonymous"></script>
+	
 	<title>Car rental</title>
+
+	
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -48,40 +52,42 @@ session_start();
 		to Car X</div>
 	</div>
 	<div class="customSelect">
-		<select>
+		<select id="carMake">
 			<option value="0">Select car:</option>
-			<option value="1">Audi</option>
-			<option value="2">BMW</option>
-			<option value="3">Citroen</option>
-			<option value="4">Ford</option>
-			<option value="5">Honda</option>
-			<option value="6">Jaguar</option>
-			<option value="7">Land Rover</option>
-			<option value="8">Mercedes</option>
-			<option value="9">Mini</option>
-			<option value="10">Nissan</option>
-			<option value="11">Toyota</option>
-			<option value="12">Volvo</option>
+			<option value="Audi">Audi</option>
+			<option value="BMW">BMW</option>
+			<option value="Citroen">Citroen</option>
+			<option value="Ford">Ford</option>
+			<option value="Honda">Honda</option>
+			<option value="Jaguar">Jaguar</option>
+			<option value="Land Rover">Land Rover</option>
+			<option value="Mercedes">Mercedes</option>
+			<option value="Mini">Mini</option>
+			<option value="Nissan">Nissan</option>
+			<option value="Toyota">Toyota</option>
+			<option value="Volvo">Volvo</option>
 		</select>
-		<select>
+		<select id="type">
 			<option value="0">Select Type:</option>
-			<option value="1">Used</option>
-			<option value="2">New</option>
+			<option value="Used">Used</option>
+			<option value="New">New</option>
 		</select>
-		<select>
+		<select id="transmission">
 			<option value="0">Select Transmission:</option>
-			<option value="1">Automatic</option>
-			<option value="2">Manual</option>
+			<option value="Automatic">Automatic</option>
+			<option value="Manual">Manual</option>
 		</select>
-		<select>
+		<select id="year">
 			<option value="0">Select Year:</option>
-			<option value="1">2017</option>
-			<option value="2">2018</option>
-			<option value="3">2019</option>
-			<option value="4">2020</option>
+			<option value="2017">2017</option>
+			<option value="2018">2018</option>
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
 		</select>
-		<button class="button">Find</button>
+		<button type='button' onclick="find()" class="button">Find</button>
 	</div>
+	<script type="text/javascript" src="cookies.js"></script>
+	
 	<hr>
 	<div class="feature-car">
 		<h1>Feature car</h1>
