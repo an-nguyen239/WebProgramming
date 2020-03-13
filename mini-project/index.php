@@ -205,8 +205,8 @@ session_start();
 			<div class="footer_third">
 				<h1>USEFUL LINKS</h1>
 				<a href="#">Home</a>
-				<a href="https://www.youtube.com/watch?v=BMu9yrq_ZMI">About Us</a>
-				<a href="#">Services</a>
+				<a href="https://www.youtube.com/watch?v=BMu9yrq_ZMI">Video of Phrase 1</a>
+				<a href="https://www.youtube.com/watch?v=4AbyJ1NlSZI">Video of Phrase 2</a>
 				<a href="#">Faq</a>
 				<a href="#">Contact Us</a>
 				<a href="#">Car Reviews</a>
